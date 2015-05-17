@@ -70,7 +70,7 @@ a:hover {
 }
 
 .explanation {
-
+    position:relative;
     margin-top: 10%;
     margin-bottom:3%;
     overflow:hidden;
@@ -81,7 +81,7 @@ a:hover {
 }
 
 .text {
-    padding:1em 0;
+    padding:1em 2em 0 0;
     display: inline-block;
     width: 50%;
     border-right: 1px solid #23A9E1;
@@ -89,20 +89,47 @@ a:hover {
 }
 
 .details {
-    padding:2em 0 0 1em;
-    display: inline-block;
+    padding-left:2em;
     width:50%;
     overflow:hidden;
+    /*margin:auto 0;*/
+    margin-top:25%;
+    display:inline-block;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 
 .details p {
     width: 90%;
 }
 
-
 .call {
+    margin-bottom:10%;
+}
+
+.call p{
+    text-align:center;
     font-size: 23px;
-    font-weight: 550;
-    margin: 10% 0;
+    font-weight: 600;
+    margin-top: 10%;
+
+}
+
+.call button {
+
+    display:block;
+    background-color:#30d2a9;
+    color:#FFF;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.call button:hover {
+    background-color:#84EBD1;
+    color:#FFF;
 }
 
